@@ -6,6 +6,8 @@ class sumOfLastDigits{
         int n1=sc.nextInt();
         System.out.print("Enter second number: ");
         int n2=sc.nextInt();
+        n1=Math.abs(n1);
+        n2=Math.abs(n2);
         int sum=n1%10 + n2%10;
         System.out.println("The sum of last digits of two numbers is: "+sum);
         sc.close();
