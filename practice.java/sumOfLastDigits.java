@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class sumOfLastDigits{
+class SumOfLastDigits{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter first number: ");
